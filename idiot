@@ -1,4 +1,3 @@
---\\Not Mine Bro Lol//--
 local trollsKit = Instance.new("ScreenGui")
 local mainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
