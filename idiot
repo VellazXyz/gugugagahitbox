@@ -399,7 +399,8 @@ local function CQPZII_fake_script() -- mainFrame.initialize
 	
 	
 	UserInputService.InputBegan:Connect(function(input,gameprocess)
-		if input.KeyCode == Enum.KeyCode.Key9 then
+		if gameprocess == true then return end
+		if input.KeyCode == Enum.KeyCode.P then
 			if mainFrame.Visible == true then
 				mainFrame.Visible = false
 			else
